@@ -39,7 +39,7 @@ var_dump($array_matches);
 <ul>
     <!-- apro php con < ? php - ciclo foareach - chiudo php con : ? > -->
   <?php foreach ($array_matches as $match) : ?>
-    <li> <?php echo $match['squadra_casa'] . '-' . $match['squadra_ospiti']?> => <?php echo $match['casa_punti'] . '-' . $match['ospiti_punti'] ?></li>
+    <li> <?php echo $match['squadra_casa'] . '-' . $match['squadra_ospiti']?> | <?php echo $match['casa_punti'] . '-' . $match['ospiti_punti'] ?></li>
     <!-- aprop php con < ? php - chiudo ciclo con  endfoareach - chiudo php con : ? > -->
   <?php endforeach; ?>
 </ul>
